@@ -1,7 +1,7 @@
 """A tiny client for the Praesago MCP server (Streamable HTTP, JSON-RPC). Needs only `requests`.
 
-Without a key you get headline facts, 30 calls a day. With a free key (https://praesago.com/pricing) set PRAESAGO_API_KEY for 2,000 calls a day
-and the full profile from get_area_context.
+Without a key you get headline facts. With an API key (https://praesago.com/docs/mcp) set PRAESAGO_API_KEY to get
+the full profile from get_area_context.
 """
 import json
 import os

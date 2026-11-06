@@ -15,7 +15,7 @@ python compare.py Hackney Leeds
 python cheap_welsh_districts.py 150000
 ```
 
-No key is needed to start (30 calls a day). For 2,000 calls a day and the full profile, create a free key at https://praesago.com/pricing and set it:
+The server works without a key for headline facts. For the full profile, get an API key (setup at https://praesago.com/docs/mcp) and set it:
 
 ```
 export PRAESAGO_API_KEY=your_key      # PowerShell: $env:PRAESAGO_API_KEY = "your_key"
