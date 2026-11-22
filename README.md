@@ -63,6 +63,10 @@ export PRAESAGO_API_KEY=your_key      # PowerShell: $env:PRAESAGO_API_KEY = "you
 
 The same data is a REST API with an OpenAPI description: https://praesago.com/docs/api (try `curl https://praesago.com/api/v1/demo`, no key needed).
 
+## Monthly email
+
+Monthly email for builders (what moved in the England and Wales property market, which official data was updated, one API call to try): <https://praesago.com/newsletter>
+
 ## Not covered
 
 Scotland and Northern Ireland, forecasts, valuations of single homes, and individual listings (only weekly totals and medians).
